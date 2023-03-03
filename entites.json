@@ -1,0 +1,516 @@
+[
+    {
+        "collectivite": "agglo2b",
+        "company": " Communaut\u00e9 d'Agglom\u00e9ration du Bocage Bressuirais",
+        "structure": "P\u00f4le Ressources",
+        "service": "Direction des Syst\u00e8mes d'Information"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Am\u00e9nagement Environnement et Ing\u00e9nierie Territoriale",
+        "service": "Direction de l'Assainissement et des Milieux Aquatiques"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Ressources",
+        "service": "Direction des Ressources Humaines"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": "D\u00e9veloppement Economique et Agricole"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Am\u00e9nagement Environnement et Ing\u00e9nierie Territoriale",
+        "service": "Direction de la Pr\u00e9vention et de la Valorisation des D\u00e9chets"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Ressources",
+        "service": "Direction des Finances"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "Direction de la Communication",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": ""
+    },
+    {
+        "collectivite": "bocapole",
+        "company": "Bocapole",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": "Bocap\u00f4le"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Direction de la Solidarit\u00e9, Direction du CIAS"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Am\u00e9nagement Environnement et Ing\u00e9nierie Territoriale",
+        "service": "Direction des Transports et de l'Accessibilit\u00e9"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Am\u00e9nagement Environnement et Ing\u00e9nierie Territoriale",
+        "service": "Direction de la Planification de l'Am\u00e9nagement et de l'Habitat"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Direction de la Culture - Biblioth\u00e8ques"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Ressources",
+        "service": "Direction des Services Juridiques et de l'Admin. G\u00e9n\u00e9rale"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Petite Enfance"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Direction des Sports et des Centres Aquatiques"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "Direction G\u00e9n\u00e9rale des Services",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Politique de la Ville et de la Pr\u00e9vention"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Direction de la Culture - Conservatoire de Musique, Mus\u00e9es"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Enfance"
+    },
+    {
+        "collectivite": "pescalis",
+        "company": "Pescalis",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": ""
+    },
+    {
+        "collectivite": "tourisme-bocage",
+        "company": "Office de Tourisme",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Direction de la Culture - Sc\u00e8nes de Territoire"
+    },
+    {
+        "collectivite": "agglo2b",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": ""
+    },
+    {
+        "collectivite": "tourisme-bocage",
+        "company": "",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": "Pescalis"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Am\u00e9nagement Environnement et Ing\u00e9nierie Territoriale",
+        "service": "Direction du Patrimoine, des Infrastructures et de l'Ing\u00e9nierie"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Am\u00e9nagement Environnement et Ing\u00e9nierie Territoriale",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Politique Jeunesse"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Dir. Enfance, Pte. Enf., Jeunesse, Citoy. et Pol. de la Ville"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": "Direction de l'Assainissement et des Milieux Aquatiques"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "Centre Intercommunal d'Action Sociale",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Direction de la Planification de l'Am\u00e9nagement et de l'Habitat"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "Dir. du D\u00e9v. Eco., Touristique et des Grands Equipements",
+        "service": "Pescalis"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Solidarit\u00e9, Attractivit\u00e9 et Coh\u00e9sion Sociale",
+        "service": "Unit\u00e9 Strat\u00e9gie et politique contractuelle"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "P\u00f4le Am\u00e9nagement Environnement et Ing\u00e9nierie Territoriale",
+        "service": "Direction de la Planification de l'Am\u00e9nagement et de l'Habitat "
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "",
+        "service": "Direction des Syst\u00e8mes d'Information"
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "Commune Associ\u00e9e de Terves",
+        "structure": "",
+        "service": "Direction des Ressources Humaines"
+    },
+    {
+        "collectivite": "tourisme-bocage",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "Commune De Bressuire",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Restauration Scolaire"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "Commune Associ\u00e9e de Breuil-Chauss\u00e9e",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Voirie"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Centre Technique Municipal"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Accueil P\u00e9riscolaire"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Espaces Verts"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Education-Scolarit\u00e9"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Scolaire"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Vie Associative"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Administration G\u00e9n\u00e9rale"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Finances"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Ressources Humaines"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Direction G\u00e9n\u00e9rale des Services"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Ev\u00e9nementiel"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Centre Communal d'Action Sociale"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "Commune Associ\u00e9e de Beaulieu",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "Commune Associ\u00e9e de Noirterre",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Golf"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "Commune Associ\u00e9e de Saint-Sauveur",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Commande Publique"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Archives municipales"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Culture et Patrimoine"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Vie associative"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Communication"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Chantier d'insertion"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Secr\u00e9tariat du Maire"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "B\u00e2timents - S\u00e9curit\u00e9"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "March\u00e9 Couvert"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Police Municipale"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Service Electricit\u00e9"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Action Coeur de Ville"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Service des Sports"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Hygi\u00e8ne & Propret\u00e9 des  Locaux"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Urbanisme - Affaires Fonci\u00e8res"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Action Sociale et Solidatit\u00e9"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Direction des Services Techniques"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Population"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Restauration"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Secr\u00e9tariat g\u00e9n\u00e9ral"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Action Culturelle"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "",
+        "structure": "",
+        "service": "Accueil et population"
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "Communes d\u00e9l\u00e9gu\u00e9es",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "ville-bressuire",
+        "company": "RASED",
+        "structure": "",
+        "service": ""
+    },
+    {
+        "collectivite": "agglo2b",
+        "company": "",
+        "structure": "",
+        "service": "Mus\u00e9es"
+    }
+]
