@@ -1,24 +1,204 @@
-// document.getElementById('submit').addEventListener('click', function(event) {
+// const formulaire = document.getElementById('form');
+// formulaire.addEventListener('submit', function(event) {
 //     event.preventDefault();
 //     var givenName = document.getElementById('givenName').value;
 //     var sn = document.getElementById('sn').value;
 //     var sAMAccountName = document.getElementById('sAMAccountName').value;
 //     var mail = document.getElementById('mail').value;
 //     var telephoneNumber = document.getElementById('telephoneNumber').value;
-//     var title = document.getElementById('title').value;
-//     var department = document.getElementById('department').value;
-//     var company = document.getElementById('company').value;
-//     if (givenName == "" || sn == "" || sAMAccountName == "" || mail == "") {
-//         alert("Les champs Prénom, Nom de famille, Nom d'utilisateur, Adresse e-mail sont requis");
-//         return false;
-//       }
-// if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3}|\.local|\.lan)+$/.test(mail)) {
-//   alert("L'adresse email n'est pas valide");
-//   return false;
-// }
-// Ajouter ici toutes les autres vérifications de champ que vous souhaitez effectuer
-// Si tous les champs sont valides, soumettre le formulaire
-//   document.getElementById("createUserForm").submit();
+//     var ville  = document.getElementById('l').value;
+//     var postalCode = document.getElementById('postalCode').value;
+//     var streetAddress = document.getElementById('streetAddress').value;
+//     var Password = document.getElementById('password').value;
+//     var PasswordConfirmation = document.getElementById('confirmPassword').value;
+//     var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{12,}$/;
+//     var memberOf = document.getElementById('memberOf').value;
+//     var description = document.getElementById('description').value;
+//     var country = document.getElementById('co').value;
+//     var fonction = document.getElementById('title').value;
+//     var service = document.getElementById('department').value;
+//     var entreprise = document.getElementById('company').value;
+//     var division = document.getElementById('division').value;
+//     var manager = document.getElementById('manager').value;
+//     var employeeID = document.getElementById('employeeID').value;
+//     var dateEntre = document.getElementById('extensionAttribute2').value;
+//     var exchange = document.getElementById('extensionAttribute15').value;
+//     var expire = document.getElementById('accountExpires').value;
+//     var sousService = document.getElementById('extensionAttribute1').value;
+//     var intranet = document.getElementById('extensionAttribute3').value;
+//     var emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+    // Vérification du champ prénom
+    // if (givenName == "") {
+    //     alert("Le champ prénom est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ nom
+    // if (sn == "") {
+    //     alert("Le champ nom est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ nom d'utilisateur
+    // if (sAMAccountName == "") {
+    //     alert("Le champ nom d'utilisateur est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ email
+    // if (mail == "") {
+    //     alert("Le champ email est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ téléphone
+    // if (telephoneNumber == "") {
+    //     alert("Le champ téléphone est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ ville
+    // if (ville == "") {  
+    //     alert("Le champ ville est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ code postal
+    // if (postalCode == "") {
+    //     alert("Le champ code postal est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ adresse
+    // if (streetAddress == "") {
+    //     alert("Le champ adresse est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ mot de passe
+    // if (Password == "") {
+    //     alert("Le champ mot de passe est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ confirmation mot de passe
+    // if (PasswordConfirmation == "") {
+    //     alert("Le champ confirmation mot de passe est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ groupe
+    // if (memberOf == "") {
+    //     alert("Le champ groupe est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ description
+    // if (description == "") {
+    //     alert("Le champ description est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ pays
+    // if (country == "") {
+    //     alert("Le champ pays est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ fonction
+    // if (fonction == "") {
+    //     alert("Le champ fonction est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ service
+    // if (service == "") {
+    //     alert("Le champ service est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ entreprise
+    // if (entreprise == "") { 
+    //     alert("Le champ entreprise est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ division
+    // if (division == "") {
+    //     alert("Le champ division est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ manager
+    // if (manager == "") {
+    //     alert("Le champ manager est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ ID employé
+    // if (employeeID == "") {
+    //     alert("Le champ ID empoyé est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ date d'entrée
+    // if (dateEntre == "") {
+    //     alert("Le champ date d'entrée est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ exchange
+    // if (exchange == "") {
+    //     alert("Le champ exchange est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ expiration
+    // if (expire == "") {
+    //     alert("Le champ expiration est obligatoire");
+    //     return false;
+    // }
+    // Vérification du champ mot de passe
+    // if (passwordRegex.test(Password) == false ) {
+    //   // var error = document.getElementById('passError');
+    //   // error.style.borderColor = "red";
+    //   // error.textContent = "Le mot de passe doit contenir au moins 12 caractères dont une majuscule, une minuscule et un chiffre";
+    //    alert("Le mot de passe doit contenir au moins 12 caractères dont une majuscule, une minuscule et un chiffre");
+    //     return false;
+    // }
+    // // Vérification du champ confirmation mot de passe
+    // if ( PasswordConfirmation != Password) {
+    //     alert("Le mot de passe et la confirmation ne correspondent pas");
+    //     return false;
+    // }
+    // // Vérification du champ email
+    // if (emailRegex.test(mail) == false) {
+    //     alert("L'adresse email n'est pas valide");
+    //     return false;
+    // }
+    // // Vérification du champ téléphone
+    // if (telephoneNumber.length < 10) {
+    //     alert("Le numéro de téléphone n'est pas valide");
+    //     return false;
+    // }
+    // // Vérification du champ code postal
+    // if (postalCode.length < 5) {
+    //     alert("Le code postal n'est pas valide");
+    //     return false;
+    // }
+    // // Vérification du champ ID employé
+    // if (employeeID.length < 5) {
+    //     alert("L'ID employé n'est pas valide");
+    //     return false;
+    // }
+    // // Vérification du champ date d'entrée
+    // if (dateEntre < Date.now()) {
+    //     alert("La date d'entrée n'est pas valide");
+    //     return false;
+    // }
+    // // Vérification du champ expiration
+    // if (expire < Date.now()) {
+    //     alert("La date d'expiration n'est pas valide");
+    //     return false;
+    // }
+
+    // // Vérification du champ intranet 
+    // if (intranet == "") {
+    //     alert("Le champ intranet est obligatoire");
+    //     return false;
+    // }
+    // // Vérification du champ sous-service 
+    // if (sousService == "") {
+    //     alert("Le champ sous-service est obligatoire");
+    //     return false;
+    // }
+
+
+// envoie du formulaire
+// formulaire.submit();
+
+    
+
 // });
 
 //import du fichier JSON
@@ -75,62 +255,7 @@ fetch("cities.json")
 
   })
 
-// Lecture du json pour recuperer les services et les entreprises
 
-// fetch("entites.json")
-//   .then(reponse => reponse.json())
-//   .then(data => {
-//     let entites = data;
-//     console.log(entites);
-//     var company = document.getElementById("company");
-//     var department = document.getElementById("department");
-
-//     // Ajout des options au select à partir du fichier JSON
-//     for (var i = 0; i < entites.length; i++) {
-//       // if (!entites[i].company || !entites[i].service) continue;
-//       var optionCompany = document.createElement("option");
-//       optionCompany.value = entites[i].company;
-//       optionCompany.text = entites[i].company;
-
-//       var optionDepartment = document.createElement("option");
-//       optionDepartment.value = entites[i].service;
-//       optionDepartment.text = entites[i].service;
-
-//       company.appendChild(optionCompany);
-//       department.appendChild(optionDepartment);
-//     }
-
-//     // Gestion des événements de saisie pour la recherche
-//     department.addEventListener("input", function () {
-//       var departmentSaisi = this.value;
-//       var companyTrouvee = false;
-//       for (var i = 0; i < entites.length; i++) {
-//         if (entites[i].service.toLowerCase() === departmentSaisi.toLowerCase()) {
-//           company.value = entites[i].company;
-//           companyTrouvee = true;
-//           break;
-//         }
-//       }
-//       if (!companyTrouvee) {
-//         company.value = "";
-//       }
-//     });
-
-//     company.addEventListener("input", function () {
-//       var companySaisi = this.value;
-//       var departmentTrouve = false;
-//       for (var i = 0; i < entites.length; i++) {
-//         if (entites[i].company.toLowerCase() === companySaisi.toLowerCase()) {
-//           department.value = entites[i].service;
-//           departmentTrouve = true;
-//           break;
-//         }
-//       }
-//       if (!departmentTrouve) {
-//         department.value = "";
-//       }
-//     });
-//   });
 
 
 

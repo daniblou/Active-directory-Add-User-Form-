@@ -21,20 +21,23 @@ class ActiveDirectory
     private $service ;
     private $dateEntre;
     private $exchange;
-    private $idEmployee;
+    private $employeeID;
     private $entreprise;
     private $expire;
     private $division; 
+    private $description;
+    private $intranet;
+    private $sousService ;
     
    public function __construct(){
         // $this->expire = $_POST['accountExpires'];
           $this->entreprise = $_POST['company'];
-        //  $this->EmployeeId = $_POST['employeeId'];
-        // $this->exchange = $_POST['exchange'];
-        // $this->dateEntre = $_POST['whenCreated'];
+          $this->employeeID = $_POST['employeeID'];
+         $this->exchange = $_POST['extensionAttribute15'];
+        // $this->dateEntre = $_POST['extensionAttribute2'];
          $this->service = $_POST['department'];
-        // $this->fonction = $_POST['title'];
-        // $this->username = $_POST['samAccountName'];
+         $this->fonction = $_POST['title'];
+         $this->username = $_POST['sAMAccountName'];
          $this->fullname = $_POST['cn'];
          $this->firstname = $_POST['givenName'];
         $this->lastname = $_POST['sn'];
@@ -45,12 +48,15 @@ class ActiveDirectory
          $this->zip = $_POST['postalCode'];
          $this->country = $_POST['co'];
          $this->phone = $_POST['telephoneNumber'];
-        // $this->password = $_POST['password'];
+         $this->description = $_POST['description'];
+         $this->password = $_POST['password'];
         // $this->confirmPassword = $_POST['confirmPassword'];
         // $this->group = $_POST['memberOf'];
         // $this->disabled = isset($_POST['disabled']) ? true : false;
-        // $this->manager = $_POST['manager'];
+         $this->manager = $_POST['manager'];
          $this->division = $_POST['division'];
+        $this->sousService = $_POST['extensionAttribute1'];
+        $this->intranet = $_POST['extensionAttribute3'];
 
     }
 
@@ -90,23 +96,23 @@ class ActiveDirectory
     public function AddUser(){
 
         // Preparation des informations de l'utilisateur
-
-        $info["cn"] = $this->fullname;
+   
         $info["sn"] = $this->lastname;
          $info["givenName"] = $this->firstname;
-        // $info["displayName"] = $this->displayname;  
+         $info["displayName"] = $this->displayname;  
          $info["mail"] = $this->email;
          $info["streetAddress"] = $this->address;
          $info["l"] = $this->city;
          $info["postalCode"] = $this->zip;
          $info["co"] = $this->country;
          $info["telephoneNumber"] = $this->phone;
-        // $info["title"] = $this->fonction;
+         $info["title"] = $this->fonction;
          $info["department"] = $this->service;
          $info["company"] = $this->entreprise;
-        // $info["employeeid"] = $this->EmployeeId;
-        // $info["manager"] = $this->manager;
-        // $info["sAMAccountName"] = $this->username;
+         $info["employeeID"] = $this->employeeID;
+         $info["manager"] = $this->manager;
+         $info["sAMAccountName"] = $this->username;
+        $info["description"] = $this->description;
         // $info["userPrincipalName"] = $this->username."@labo.local";
         $info["objectclass"][0] = "top";
         $info["objectclass"][1] = "person";
@@ -140,6 +146,9 @@ class ActiveDirectory
 
 
 }
+
+
+
 
 
      
